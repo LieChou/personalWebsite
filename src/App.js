@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
-import { Header } from './components';
+import { Header, Portfolio } from './components';
+import projects from './components/util/projects.json'
 
 export default class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: projects
+    }
+  }
 
   render() {
     return (
@@ -11,7 +19,9 @@ export default class App extends Component {
         </div>
 
         <div className="p-2 lg-8">
-          <p>Portfolio here to add</p>
+          <Portfolio
+            projects={this.state.projects}
+          />
         </div>
       </div>
     )
