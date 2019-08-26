@@ -14,11 +14,11 @@ export default class App extends Component {
   render() {
     return (
       <div className="d-flex flex-row">
-        <div className="lg-4">
+        <div className="auto">
           <Header />
         </div>
 
-        <div className="p-2 lg-8">
+        <div className="auto">
           <Portfolio
             projects={this.state.projects}
           />

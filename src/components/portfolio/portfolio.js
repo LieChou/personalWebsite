@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PortfolioElement } from '././portfolioElement/portfolioElement'
+import { PortfolioElement } from '..'
 
 export default class Portfolio extends Component {
 
@@ -7,11 +7,14 @@ export default class Portfolio extends Component {
         return (
             <div>
                 {this.props.projects.map((p, index) => (
-                    <div>
-                        <PortfolioElement
-                            projects={this.props.projects}
-                        />
+                    <div key={p + index}>
+                        < div >
+                            <PortfolioElement
+                                project={p}
+                            />
+                        </div>
                     </div>
+
                 ))}
             </div>
         )
