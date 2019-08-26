@@ -13,7 +13,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="d-flex flex-row">
+      <div >
         <div className="auto">
           <Header />
         </div>
