@@ -14,7 +14,7 @@ export default class PortfolioElement extends Component {
                         <Card.Text >
                             {this.props.project.technos}
                         </Card.Text>
-                        <Button variant="outline-dark" size="lg">En savoir plus</Button>
+                        <Button href={this.props.project.url} variant="outline-info" size="lg" target="_blank">En savoir plus</Button>
                     </Card.Body>
                 </Card>
             </div>

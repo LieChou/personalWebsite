@@ -18,7 +18,7 @@ export default class Presentation extends Component {
                     <div className="d-flex flex-row flex-wrap">
                         <div className="pb-4 text-justify">
                             <p>
-                                J'ai décidé de me réorienter après près de 10 ans dans le recrutement et la chasse de tête de profils informatiques
+                                J'ai décidé de me réorienter après 10 ans dans le recrutement et la chasse de tête de profils informatiques
                                 et plus précisément de développeurs. <br />
                                 J'ai suivi la formation OpenClassrooms de développeuse d'application frontend, reconnue au titre RNCP - équivalence Bac +3/4.<br />
                                 J'ai réalisé cette formation en 1 an et je suis actuellement à la recherche de mon stage de fin d'études.<br />
