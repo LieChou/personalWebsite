@@ -4,27 +4,33 @@ export default class Presentation extends Component {
 
     render() {
         return (
-            <div>
+            <div >
 
-                <div className="p-5 d-flex flex-row flex-wrap">
-                    <div>
+                <div className="p-3 d-flex flex-row flex-wrap">
+                    <div className="m-3 text-center">
                         <img src={require("./profilePic.png")} style={{ borderRadius: 50 }} width="100" height="100" alt="profile" /><br />
                     </div>
 
-                    <div className="ml-5">
-                        <h1>Aurélie Tudare</h1><br />
+                    <div className="my-3 mt-3">
                         <h1>Développeuse Frontend React</h1><br />
                     </div>
 
-                    <div className="mb-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. </p>
+                    <div className="d-flex flex-row flex-wrap">
+                        <div className="pb-4 text-justify">
+                            <p>
+                                J'ai décidé de me réorienter après près de 10 ans dans le recrutement et la chasse de tête de profils informatiques
+                                et plus précisément de développeurs. <br />
+                                J'ai suivi la formation OpenClassrooms de développeuse d'application frontend, reconnue au titre RNCP - équivalence Bac +3/4.<br />
+                                J'ai réalisé cette formation en 1 an et je suis actuellement à la recherche de mon stage de fin d'études.<br />
+                                Je suis tout particulièrement intéressée par React et les Entreprises Sociales et Solidaires.<br /></p>
+                        </div>
+
+                        <div className="mb-5">
+                            <img className="img-fluid" src={require("./competences.png")} width="auto" height="auto" alt="competences" /><br />
+                        </div>
                     </div>
 
-                    <div >
-                        <img src={require("./competences.png")} width="auto" height="auto" alt="competences" /><br />
-                    </div>
-
-                    <div >
+                    <div className="col-12 text-center">
                         <a className="p-2" href="https://github.com/LieChou"><img src={require("./github.svg")} width="50" height="50" alt="github icon" /></a>
                         <a className="p-2" href="https://www.linkedin.com/in/aurélie-t-32367011"><img src={require("./linkedin.svg")} width="50" height="50" alt="linkedin icon" /></a>
                     </div>

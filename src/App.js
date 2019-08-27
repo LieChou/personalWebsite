@@ -13,12 +13,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <div >
-        <div className="auto">
+      <div className="d-flex flex-row flex-wrap">
+        <div className="col-lg-3 col-md-4">
           <Header />
         </div>
 
-        <div className="auto">
+        <div className="col-lg-9 col-md-8 pl-2" >
           <Portfolio
             projects={this.state.projects}
           />
