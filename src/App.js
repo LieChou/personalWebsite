@@ -14,15 +14,17 @@ export default class App extends Component {
   render() {
     return (
       <div className="d-flex flex-row flex-wrap">
-        <div className="col-lg-3 col-md-4">
+
+        <div className="col-lg-4 col-md-4 ">
           <Header />
         </div>
 
-        <div className="col-lg-9 col-md-8 pl-2" >
+        <div className="col-lg-8 col-md-8">
           <Portfolio
             projects={this.state.projects}
           />
         </div>
+
       </div>
     )
   }
