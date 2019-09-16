@@ -4,7 +4,7 @@ export default class Presentation extends Component {
 
     render() {
         return (
-            <div style={{ height: "100vh" }}>
+            <div className="textLeft">
 
                 <div className="p-3 d-flex flex-row flex-wrap">
                     <div className="m-3 text-center">
@@ -19,12 +19,13 @@ export default class Presentation extends Component {
                         <div className="pb-3 text-justify">
                             <p>
                                 Je termine actuellement la formation OpenClassrooms de développeuse d'application frontend, reconnue au titre RNCP - équivalence Bac +3/4.<br />
-                                J'ai réalisé cette formation en 1 an et je suis actuellement à la recherche de mon stage de fin d'études.<br />
-                                Je suis tout particulièrement intéressée par React qui est une techno dans laquelle je souhaite me spécialiser.<br /></p>
+                                Cette formation s'est déroulée en 1 an et je réalise actuellement mon stage de fin d'études. <br />
+                                Je suis tout particulièrement intéressée par React/Redux, bibliothèques dans lesquelles je souhaite me spécialiser.
+                            </p><br />
                         </div>
 
-                        <div className="mb-5">
-                            <img className="img-fluid" src={require("./competences.png")} width="auto" height="auto" alt="competences" /><br />
+                        <div className="mb-4">
+                            <img className="img-fluid" src={require("./competences.png")} max-width="100%" height="100%" alt="competences" /><br />
                         </div>
                     </div>
 

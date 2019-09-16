@@ -8,7 +8,8 @@
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "react-scroll-up-button": "^1.6.4"
+    "react-scroll-up-button": "^1.6.4",
+    "react-scrollbar": "^0.5.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +32,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://liechou.fr/personalWebsite"
+  "homepage": "https://liechou.fr"
 }

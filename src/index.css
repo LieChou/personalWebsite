@@ -12,7 +12,17 @@ code {
     monospace;
 }
 
-/* .addScrollBar{
+.addScrollBar{
   height:700px;
   overflow-y: scroll;
-} */
+}
+
+.textLeft{
+  height: 100vh;
+}
+
+@media screen and (max-width: 640px) {
+  .textLeft{
+    height: auto;
+  }
+}

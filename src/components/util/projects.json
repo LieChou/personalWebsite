@@ -2,38 +2,32 @@
     {
         "title": "Site d'avis de restaurants",
         "technos": "React, Bootstrap, Axios",
-        "url": "https://github.com/LieChou/projet_7",
+        "url": "http://avisrestaurants.liechou.fr/",
         "image": "/restaurant.jpg"
-    },
-    {
-        "title": "Site d'avis de films",
-        "technos": "React, Bootstrap, Axios",
-        "url": "https://github.com/LieChou/movieList",
-        "image": "/movies.jpg"
     },
     {
         "title": "Jeu de plateau en tour par tour",
         "technos": "ES6, Canvas, Jquery",
-        "url": "https://github.com/LieChou/projet_6",
+        "url": "http://jeuplateau.liechou.fr/",
         "image": "/game.jpg"
     },
     {
         "title": "Festival de films en plein air",
         "technos": "Html5, Css3, Bootstrap",
-        "url": "http://festivalpleinair-monceau.org/",
+        "url": "http://festivalpleinair.liechou.fr/",
         "image": "/Festival.jpg"
+    },
+    {
+        "title": "Agence immobilière de luxe",
+        "technos": "Wordpress",
+        "url": "http://chalets.liechou.fr/",
+        "image": "/chalets.jpg"
     },
     {
         "title": "Restauration en ligne",
         "technos": "UML, MySQL",
         "url": "https://github.com/LieChou/expressFood",
         "image": "/expressFood.jpg"
-    },
-    {
-        "title": "Agence immobilière de luxe",
-        "technos": "Wordpress",
-        "url": "http://chaletsetcaviar-courchevel.org/",
-        "image": "/chalets.jpg"
     },
     {
         "title": "Générateur de citations",
